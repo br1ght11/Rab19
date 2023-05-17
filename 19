@@ -1,0 +1,61 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+setlocale (0, "");
+int arrInt[10] = { 1, 5, 10, 15, 20, 25, 30, 35, 40, 45 }; // объявление и инициализация одномерного массива
+cout << "[+] Массив Int" << "\n" << endl; // Обозначение заголовка
+for (int counter = 0; counter < 10; counter++) //начало цикла
+{
+	cout << "[+]arrInt[" << counter << "]" " | Значение: " << arrInt[counter] << endl; // Вывод на экран индекса ячейки массива и его содережимого , с требованиями задания
+}
+short arrShort[10] = { 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 };
+cout << "\n[+] Массив Short" << "\n" << endl;
+for (int counter = 0; counter < 10; counter++)
+{
+	cout << "[+]arrShort[" << counter << "]" " | Значение: " << arrShort[counter] << endl;
+}
+long arrLong[10] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+cout << "\n[+] Массив Long" << "\n" << endl;
+for (int counter = 0; counter < 10; counter++)
+{
+	cout << "[+]arrLong[" << counter << "]" " | Значение: " << arrLong[counter] << endl;
+}
+float arrFloat[10] = { 1.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.6, 5.0 };
+cout << "\n[+] Массив Float" << "\n" << endl;
+for (int counter = 0; counter < 10; counter++)
+{
+	cout << "[+]arrFloat[" << counter << "]" " | Значение: " << arrFloat[counter] << endl;
+}
+double arrDouble[10] = { 5.4, 10.5, 15.6, 20.8, 25.9, 30.3, 35.4, 40.5, 45.1, 50.4 };
+cout << "\n[+] Массив Double" << "\n" << endl;
+for (int counter = 0; counter < 10; counter++)
+{
+	cout << "[+]arrDouble[" << counter << "]" " | Значение: " << arrDouble[counter] << endl;
+}
+char arrChar[10] = { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j'};
+cout << "\n[+] Массив Char" << "\n" << endl;
+for (int counter = 0; counter < 10; counter++)
+{
+	cout << "[+]arrChar[" << counter << "]" " | Значение: " << arrChar[counter] << endl;
+}
+bool arrBool[10] = { true, false, true, false, true, false, true, false, true, false };
+cout << "\n[+] Массив Bool" << "\n" << endl;
+for (int counter = 0; counter < 10; counter++)
+{
+	cout << "[+]arrBool[" << counter << "]" " | Значение: " << arrBool[counter] << endl;
+}
+string arrString[10] = { "hello", "bye", "cat", "dog", "fly", "job", "school", "flight", "work", "children"};
+cout << "\n[+] Массив String" << "\n" << endl;
+for (int counter = 0; counter < 10; counter++)
+{
+	cout << "[+]arrString[" << counter << "]" " | Значение: " << arrString[counter] << endl;
+}
+
+
+int _;
+cin >> _;
+return 0;
+}
